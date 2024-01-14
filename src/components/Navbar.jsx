@@ -1,8 +1,6 @@
 const links = [
-  { path: '#home', text: 'Home' },
-  { path: '#skills', text: 'My Skills' },
-  { path: '#work', text: 'Work' },
-  { path: '#clients', text: 'Clients' },
+  { path: '/About', text: 'About' },
+  { path: '/', text: 'Work' },
   { path: '#contact', text: 'Contact' },
 ];
 
