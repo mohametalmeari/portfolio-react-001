@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router'
-import './App.css'
+import './css/main.css'
 import AboutPage from './routes/AboutPage'
 import NotFoundPage from './routes/NotFoundPage'
 import WorkPage from './routes/WorkPage'
