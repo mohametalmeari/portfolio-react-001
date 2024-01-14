@@ -1,8 +1,12 @@
+import Contact from "../components/Contact";
+import Work from "../components/Work";
+
 const WorkPage = () => {
   return (
-    <div>
-      Work Page
-    </div>
+    <>
+      <Work />
+      <Contact />
+    </>
   );
 };
 

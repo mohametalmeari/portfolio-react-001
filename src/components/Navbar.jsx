@@ -7,7 +7,7 @@ const links = [
 ];
 
 const Navbar = () => (
-  <ul>
+  <ol>
     {links.map((link) => (
       <li key={link.text}>
         <NavLink to={link.path}>
@@ -15,7 +15,7 @@ const Navbar = () => (
         </NavLink>
       </li>
     ))}
-  </ul>
+  </ol>
 );
 
 export default Navbar;

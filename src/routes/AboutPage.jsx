@@ -1,7 +1,11 @@
+import About from "../components/About";
+import Contact from "../components/Contact";
+
 const AboutPage = () => {
   return (
     <div>
-      About Page
+      <About />
+      <Contact />
     </div>
   );
 };
