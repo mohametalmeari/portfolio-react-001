@@ -31,6 +31,7 @@
   font-size: 65px;
   margin-bottom: 20px;
   font-weight: 600;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 .work__header-text {
   font-size: 17px;
@@ -45,8 +46,8 @@
   flex-direction: column;
   gap: 60px;
   padding: 60px 0;
-  border: solid 1px #2d2d2d;
-  border-width: 1px 0;
+  border: solid rgba(0, 0, 0, 0.2);
+  border-width: 2px 0;
 }
 .work__brands-row {
   display: flex;
@@ -116,6 +117,53 @@
   font-size: 20px;
 }
 .work__latest-work-text {
+  font-size: 17px;
+  font-weight: 400;
+}
+.work__clients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Epilogue", sans-serif;
+  padding: 60px 30px 90px;
+}
+.work__clients__title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.work__clients__list {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.work__client {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 80px;
+  border: solid 1.5px #ffd285;
+  background: #fffcf5;
+}
+.work__client-comment {
+  font-size: 20px;
+  font-weight: 600;
+}
+.work__client-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.work__client-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.work__client-stars {
+  display: flex;
+  gap: 5px;
+}
+.work__client-name, .work__client-corp {
   font-size: 17px;
   font-weight: 400;
 }/*# sourceMappingURL=main.css.map */

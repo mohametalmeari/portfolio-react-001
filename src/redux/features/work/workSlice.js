@@ -11,6 +11,9 @@ import americanGirlImg from "../../../assets/works/american-girl.svg";
 import wholeLottaLoveImg from "../../../assets/works/whole-lotta-love.svg";
 import underPressureImg from "../../../assets/works/under-pressure.svg";
 
+import client1Img from "../../../assets/clients/1.svg";
+import client2Img from "../../../assets/clients/2.svg";
+import client3Img from "../../../assets/clients/3.svg";
 
 const initialState = {
   skills: [
@@ -60,6 +63,32 @@ const initialState = {
       title: "Under Pressure ",
       text: "Queen",
       img: underPressureImg,
+    },
+  ],
+  clients: [
+    {
+      comment:
+        "This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com",
+      img: client1Img,
+      stars: 5,
+      name: "Gemma Nolen",
+      corp: "Google",
+    },
+    {
+      comment:
+        "This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com",
+      img: client2Img,
+      stars: 5,
+      name: "Gemma Nolen",
+      corp: "Google",
+    },
+    {
+      comment:
+        "This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com",
+      img: client3Img,
+      stars: 5,
+      name: "Gemma Nolen",
+      corp: "Google",
     },
   ],
 };

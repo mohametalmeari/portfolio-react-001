@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
   &__header {
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@
     text-align: center;
     color: $color-primary;
     padding: 50px 30px 60px;
-    font-family: 'Epilogue', sans-serif;
+    font-family: "Epilogue", sans-serif;
 
     &-niche {
       order: -1;
@@ -23,8 +23,9 @@
       font-size: 65px;
       margin-bottom: 20px;
       font-weight: 600;
+      text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     }
-    
+
     &-text {
       font-size: 17px;
       margin-bottom: 60px;
@@ -34,7 +35,6 @@
     &-img {
       width: 100%;
     }
-
   }
 
   &__brands {
@@ -42,8 +42,8 @@
     flex-direction: column;
     gap: 60px;
     padding: 60px 0;
-    border: solid 1px $color-primary;
-    border-width: 1px 0;
+    border: solid rgba(0, 0, 0, 0.2);
+    border-width: 2px 0;
 
     &-row {
       display: flex;
@@ -62,15 +62,14 @@
     align-items: center;
     padding: 150px 0;
     gap: 125px;
-
   }
-  
+
   &__skill {
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 250px;
-    font-family: 'Epilogue', sans-serif;
+    font-family: "Epilogue", sans-serif;
 
     &-img {
       max-width: 130px;
@@ -91,45 +90,101 @@
     }
   }
 
-  &__latest-works{
+  &__latest-works {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 40px 30px;
-    font-family: 'Epilogue', sans-serif;
+    font-family: "Epilogue", sans-serif;
 
-    &__title{
+    &__title {
       margin-bottom: 60px;
       font-size: 32px;
       font-weight: 600;
     }
 
-    &__list{
+    &__list {
       display: flex;
       flex-direction: column;
       gap: 60px;
     }
   }
 
-  &__latest-work{
+  &__latest-work {
     display: flex;
     flex-direction: column;
 
-    &-img{
+    &-img {
       align-self: center;
       margin-bottom: 25px;
     }
 
-    &-title{
+    &-title {
       font-weight: 600;
       margin-bottom: 10px;
       font-size: 20px;
     }
 
-    &-text{
+    &-text {
       font-size: 17px;
       font-weight: 400;
     }
   }
-  
+
+  &__clients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Epilogue", sans-serif;
+    padding: 60px 30px 90px;
+
+    &__title {
+      font-size: 32px;
+      font-weight: 600;
+      margin-bottom: 40px;
+    }
+
+    &__list {
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+    }
+  }
+
+  &__client {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 80px;
+    border: solid 1.5px #ffd285;
+    background: #fffcf5;
+
+    &-comment {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    &-info {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    &-details {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    &-stars {
+      display: flex;
+      gap: 5px;
+    }
+
+    &-name,
+    &-corp {
+      font-size: 17px;
+      font-weight: 400;
+    }
+  }
 }
