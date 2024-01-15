@@ -1,0 +1,62 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding: 70px 0;
+  margin: 0 30px;
+  font-family: "Epilogue", sans-serif;
+  gap: 80px;
+  border-top: solid 2px rgba(0, 0, 0, 0.2);
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 40px;
+  }
+
+  &__text {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 60px;
+    line-height: 27px;
+  }
+
+  &__icons {
+    display: flex;
+    gap: 13px;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+
+    &-name,
+    &-email,
+    &-msg {
+      background: #f3f3f3;
+      padding: 21px 30px;
+      border: none;
+      margin-bottom: 20px;
+    }
+
+    &-msg {
+      min-height: 230px;
+      margin-bottom: 40px;
+      resize: vertical;
+    }
+
+    &-btn {
+      padding: 25px 82px;
+      width: -moz-fit-content;
+      width: fit-content;
+      background: $color-primary;
+      color: white;
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+}

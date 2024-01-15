@@ -166,4 +166,57 @@
 .work__client-name, .work__client-corp {
   font-size: 17px;
   font-weight: 400;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding: 70px 0;
+  margin: 0 30px;
+  font-family: "Epilogue", sans-serif;
+  gap: 80px;
+  border-top: solid 2px rgba(0, 0, 0, 0.2);
+}
+.contact__info {
+  display: flex;
+  flex-direction: column;
+}
+.contact__title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.contact__text {
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 60px;
+  line-height: 27px;
+}
+.contact__icons {
+  display: flex;
+  gap: 13px;
+}
+.contact__form {
+  display: flex;
+  flex-direction: column;
+}
+.contact__form-name, .contact__form-email, .contact__form-msg {
+  background: #f3f3f3;
+  padding: 21px 30px;
+  border: none;
+  margin-bottom: 20px;
+}
+.contact__form-msg {
+  min-height: 230px;
+  margin-bottom: 40px;
+  resize: vertical;
+}
+.contact__form-btn {
+  padding: 25px 82px;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: #2d2d2d;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
 }/*# sourceMappingURL=main.css.map */
