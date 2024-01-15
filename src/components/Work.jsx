@@ -5,8 +5,11 @@ import beBrandImg from "../assets/brands/be.svg";
 import dribbbleBrandImg from "../assets/brands/dribbble.svg";
 import appleBrandImg from "../assets/brands/apple.svg";
 import awwwardsBrandImg from "../assets/brands/awwwards.svg";
+import Skill from "./Skill";
+import { useSelector } from "react-redux";
 
 const Work = () => {
+  const { skills } = useSelector((state) => state.work);
   return (
     <main className="work">
       <header className="work__header">
@@ -38,6 +41,11 @@ const Work = () => {
             alt="awwwards"
           />
         </div>
+      </div>
+      <div className="work__skills">
+        {skills.map((skill) => (
+          <Skill key={skill.title} skill={skill} />
+        ))}
       </div>
     </main>
   );

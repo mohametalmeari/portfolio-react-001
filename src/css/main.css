@@ -55,4 +55,33 @@
 }
 .work__brands-img {
   max-height: 34px;
+}
+.work__skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 150px 0;
+  gap: 125px;
+}
+.work__skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 250px;
+  font-family: "Epilogue", sans-serif;
+}
+.work__skill-img {
+  max-width: 130px;
+  margin-bottom: 56px;
+}
+.work__skill-title {
+  font-size: 27px;
+  font-weight: 600;
+  margin-bottom: 19px;
+}
+.work__skill-text {
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 27px;
 }/*# sourceMappingURL=main.css.map */
