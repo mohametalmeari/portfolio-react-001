@@ -7,9 +7,10 @@ import appleBrandImg from "../assets/brands/apple.svg";
 import awwwardsBrandImg from "../assets/brands/awwwards.svg";
 import Skill from "./Skill";
 import { useSelector } from "react-redux";
+import LatestWork from "./LatestWork";
 
 const Work = () => {
-  const { skills } = useSelector((state) => state.work);
+  const { skills, works } = useSelector((state) => state.work);
   return (
     <main className="work">
       <header className="work__header">
@@ -46,6 +47,14 @@ const Work = () => {
         {skills.map((skill) => (
           <Skill key={skill.title} skill={skill} />
         ))}
+      </div>
+      <div className="work__latest-works">
+        <h3 className="work__latest-works__title">Latest Work</h3>
+        <div className="work__latest-works__list">
+          {works.map((work) => (
+            <LatestWork key={work.title} work={work} />
+          ))}
+        </div>
       </div>
     </main>
   );
