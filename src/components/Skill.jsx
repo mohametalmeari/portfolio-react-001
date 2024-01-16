@@ -1,5 +1,3 @@
-import ProductDesignImg from "../assets/skills/product-design.svg";
-
 const Skill = (data) => {
   const { img, title, text } = data.skill;
   return (

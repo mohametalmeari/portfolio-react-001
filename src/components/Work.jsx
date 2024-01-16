@@ -1,4 +1,3 @@
-import React from "react";
 import headerImg from "../assets/header-img.svg";
 import googleBrandImg from "../assets/brands/google.svg";
 import beBrandImg from "../assets/brands/be.svg";
