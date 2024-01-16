@@ -14,12 +14,14 @@ const Work = () => {
   return (
     <main className="work">
       <header className="work__header">
-        <h1 className="work__header-title">Visual Designer</h1>
-        <h2 className="work__header-niche">Branding | Image making</h2>
-        <p className="work__header-text">
-          This is a template Figma file, turned into code using Anima. Learn
-          more at AnimaApp.com
-        </p>
+        <div className="work__header-info">
+          <h1 className="work__header-title">Visual Designer</h1>
+          <h2 className="work__header-niche">Branding | Image making</h2>
+          <p className="work__header-text">
+            This is a template Figma file, turned into code using Anima. Learn
+            more at AnimaApp.com
+          </p>
+        </div>
         <img className="work__header-img" src={headerImg} alt="Home Image" />
       </header>
       <div className="work__brands">

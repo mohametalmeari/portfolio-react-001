@@ -2,10 +2,81 @@
   .nav__burger-menu {
     display: none;
   }
+
   .nav__menu {
     position: static;
     flex-direction: row;
     height: auto;
     justify-content: flex-end;
+  }
+
+  .work__header {
+    flex-direction: row;
+    gap: 28px;
+    padding: 100px;
+
+    &-info {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: start;
+      gap: 40px;
+    }
+
+    &-niche,
+    &-title,
+    &-text {
+      margin: 0;
+    }
+
+    &-title {
+      font-size: 80px;
+    }
+
+    &-img {
+      max-height: 424px;
+    }
+  }
+
+  .work__brands {
+    flex-direction: row;
+    gap: 0;
+    align-self: stretch;
+    margin: 0 100px;
+    justify-content: space-between;
+
+    &-row {
+      display: contents;
+    }
+
+    &-img {
+      max-height: 34px;
+    }
+  }
+
+  .work__skills {
+    flex-direction: row;
+    padding: 180px 0;
+  }
+
+  .work__latest-works__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .work__clients {
+    width: 100%;
+    padding: 100px;
+  }
+
+  .work__clients__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .work__client {
+    max-width: 344px;
   }
 }
