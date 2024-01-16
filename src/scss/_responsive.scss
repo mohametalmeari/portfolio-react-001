@@ -1,0 +1,11 @@
+@include media-md {
+  .nav__burger-menu {
+    display: none;
+  }
+  .nav__menu {
+    position: static;
+    flex-direction: row;
+    height: auto;
+    justify-content: flex-end;
+  }
+}
