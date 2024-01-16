@@ -9,6 +9,7 @@ $color-primary: #2d2d2d;
   list-style: none;
   text-decoration: none;
   color: $color-primary;
+  scroll-behavior: smooth;
 }
 
 @mixin media-md {
