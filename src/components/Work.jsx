@@ -59,8 +59,8 @@ const Work = () => {
       <div className="work__clients">
         <h3 className="work__clients__title">Clients</h3>
         <div className="work__clients__list">
-          {clients.map((client) => (
-            <Client key={client.name} client={client} />
+          {clients.map((client, index) => (
+            <Client key={index} client={client} />
           ))}
         </div>
       </div>

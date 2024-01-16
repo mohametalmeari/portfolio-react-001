@@ -5,7 +5,7 @@ const Client = (data) => {
   let startsImages = [];
   for (let i = 0; i < stars; i++) {
     startsImages.push(
-      <img className="work__client-star" src={star} alt="Star" />
+      <img key={i} className="work__client-star" src={star} alt="Star" />
     );
   }
   return (
