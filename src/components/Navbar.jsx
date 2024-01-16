@@ -27,7 +27,7 @@ const Navbar = () => {
       <ol style={{ left: isMenuOpen ? "0" : "-100%" }} className="nav__menu">
         {links.map((link) => (
           <li key={link.text} onClick={toggleMenu}>
-            <NavLink to={link.path}>{link.text}</NavLink>
+            <NavLink to={link.path} onClick={() => window.scrollTo({top:0})}>{link.text}</NavLink>
           </li>
         ))}
         <li onClick={toggleMenu}>
