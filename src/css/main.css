@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -219,4 +219,69 @@
   color: white;
   font-size: 20px;
   font-weight: 600;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+.about__header {
+  background: #f9e6f0;
+  padding: 120px 30px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Epilogue", sans-serif;
+}
+.about__header-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 78px;
+  max-width: 195px;
+}
+.about__header-img {
+  border: solid 1.5px #2d2d2d;
+  margin-bottom: 20px;
+}
+.about__header-name {
+  font-size: 17px;
+  line-height: 27px;
+}
+.about__header-niche {
+  font-size: 17px;
+  line-height: 27px;
+  font-weight: 400;
+}
+.about__header b {
+  font-size: 17px;
+  line-height: 27px;
+}
+.about__header-text {
+  font-size: 17px;
+  line-height: 27px;
+}
+.about__my-story {
+  display: flex;
+  flex-direction: column;
+  padding: 120px 30px;
+  font-family: "Epilogue", sans-serif;
+}
+.about__my-story-intro {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+.about__my-story-highlight {
+  font-size: 16px;
+  line-height: 26px;
+  background: #009379;
+  color: #f6dce9;
+  font-weight: 600;
+  padding: 5px 0;
+}
+.about__my-story-text {
+  font-size: 16px;
+  line-height: 26px;
+  padding: 5px 0;
+  font-weight: 400;
 }/*# sourceMappingURL=main.css.map */
