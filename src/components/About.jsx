@@ -9,8 +9,8 @@ const About = () => {
           <h1 className="about__header-name">Pablo Designero</h1>
           <h2 className="about__header-niche">Designer & Unicorn Trainer</h2>
         </div>
-        <b>Bio:</b>
         <p className="about__header-text">
+        <b>Bio:</b><br/>
           Father of 3 humans, 5 unicorns & 2 dogs,I design since I can remember
           it. I often get asked where I get my inspiration from: in everyday’s
           lil’ details. And sometimes in leftover food I find in my beard.

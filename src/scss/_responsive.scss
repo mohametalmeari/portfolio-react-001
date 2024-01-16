@@ -79,4 +79,20 @@
   .work__client {
     max-width: 344px;
   }
+
+  .about__header {
+    flex-direction: row;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+
+    &-text {
+      max-width: 515px;
+    }
+  }
+
+  .about__my-story {
+    max-width: 880px;
+    margin: 0 auto;
+  }
 }
