@@ -472,4 +472,20 @@
     max-width: 880px;
     margin: 0 auto;
   }
+
+  .contact {
+    flex-direction: row;
+    padding: 70px 0;
+    margin: 0 100px;
+    justify-content: space-between;
+    gap: 20%;
+  }
+
+  .contact__info {
+    flex: 1;
+  }
+
+  .contact__form {
+    flex: 2;
+  }
 }

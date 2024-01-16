@@ -95,4 +95,22 @@
     max-width: 880px;
     margin: 0 auto;
   }
+
+  .contact {
+    flex-direction: row;
+    padding: 70px 0;
+    margin: 0 100px;
+    justify-content: space-between;
+    gap: 20%;
+
+    &__info {
+      flex: 1;
+      // max-width: 360px;
+    }
+
+    &__form {
+      flex: 2;
+      // width: 530px;
+    }
+  }
 }
